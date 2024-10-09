@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <Reference Include="Systеm">
-      <HintPath>..\..\Systеm\Systеm\bin\Debug\net8.0\Systеm.dll</HintPath>
+      <HintPath>Systеm.dll</HintPath>
     </Reference>
   </ItemGroup>
 
