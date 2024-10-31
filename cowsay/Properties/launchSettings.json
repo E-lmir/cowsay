@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cowsay": {
+      "commandName": "Project",
+      "commandLineArgs": "-test"
+    }
+  }
+}
