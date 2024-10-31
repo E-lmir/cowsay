@@ -19,13 +19,14 @@ namespace cowsay
         static async Task Main(string[] args)
         {
             var isLooped = false;
+            var period = 0;
             if (args[0].StartsWith("-t:"))
             {
                 isLooped = true;
+                period = int.Parse(args[0].Split(':')[1]) * 1000;
                 args[0] = string.Empty;
             }
 
-            var period = isLooped ? int.Parse(args[0].Split(':')[1]) * 1000 : 0;
             
             do
             {
